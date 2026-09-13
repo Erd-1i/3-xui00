@@ -1,0 +1,11 @@
+# 1. 核心底层防泄漏 (回环地址、DNS 端口)
+IP-CIDR,127.0.0.0/8,no-resolve
+IP-CIDR,1.0.0.1/32,no-resolve
+DST-PORT,853
+# AND,((NETWORK,udp),(DST-PORT,443))
+# 2. 系统级无用探测与遥测阻断
+DOMAIN-KEYWORD,wpad
+DOMAIN-SUFFIX,data.microsoft.com
+# 3. 软件级流氓服务及追踪屏蔽
+DOMAIN-KEYWORD,adobe
+DOMAIN-SUFFIX,adobelogin.com

@@ -1,0 +1,61 @@
+# Apple Intelligence / Siri
+DOMAIN,apple-relay.apple.com
+DOMAIN,math.apple.com
+DOMAIN,modelcompute.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,modelcompute.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,seed-box.siri.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,mask.apple-dns.net
+DOMAIN-SUFFIX,mask-h2.apple-dns.net
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,gateway.icloud.com.cn
+DOMAIN-SUFFIX,gs-loc-cn.apple.com
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-KEYWORD,gs-loc
+DOMAIN-KEYWORD,siri
+IP-CIDR,17.248.0.0/13,no-resolve
+# OpenAI
+DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,livekit.cloud
+# Anthropic (Claude)
+DOMAIN-KEYWORD,anthropic
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+# Google AI
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,ai.google.dev
+# xAI (Grok)
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
+# 其他 AI 平台与工具
+DOMAIN-SUFFIX,302.ai
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,openclaw.ai
+DOMAIN-SUFFIX,posthog.com
+DOMAIN-SUFFIX,moltbook.com
+DOMAIN-SUFFIX,lmstudio.ai
