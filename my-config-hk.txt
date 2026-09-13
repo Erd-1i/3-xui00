@@ -25,6 +25,10 @@ custom_proxy_group=🇰🇷 韩国节点`url-test`韩|KR|Korea`http://www.gstati
 
 ; ==================== 分流规则 ====================
 ruleset=REJECT,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-reject.list
+ruleset=REJECT,[]AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube))
+ruleset=REJECT,[]AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,google))
+ruleset=REJECT,[]AND,((NETWORK,UDP),(DST-PORT,443),(DOMAIN-KEYWORD,apple-relay))
+ruleset=REJECT,[]AND,((NETWORK,UDP),(DST-PORT,443),(DOMAIN-KEYWORD,icloud))
 ruleset=💬 Ai平台,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-ai.list
 ruleset=💬 Ai平台,surge:https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
 ruleset=🚀 节点选择,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-node.list
