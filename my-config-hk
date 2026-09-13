@@ -1,0 +1,34 @@
+[custom]
+
+; 香港服务器版：使用本地 SubConverter 和自建规则 API
+enable_rule_generator=true
+overwrite_original_rules=true
+
+; ==================== 代理分组 ====================
+custom_proxy_group=🚀 节点选择`select`[]🚀 手动切换`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]DIRECT
+custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=💬 Ai平台`select`[]🚀 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]DIRECT
+custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]DIRECT
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🚀 手动切换
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+
+; 地区节点组：按节点名称自动匹配
+custom_proxy_group=🇭🇰 香港节点`url-test`港|HK|Hong Kong`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🇨🇳 台湾节点`url-test`台|TW|Taiwan`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🇸🇬 狮城节点`url-test`新加坡|狮城|SG|Singapore`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🇯🇵 日本节点`url-test`日|JP|Japan`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🇺🇲 美国节点`url-test`美|US|USA|America`http://www.gstatic.com/generate_204`300
+custom_proxy_group=🇰🇷 韩国节点`url-test`韩|KR|Korea`http://www.gstatic.com/generate_204`300
+
+; ==================== 分流规则 ====================
+ruleset=REJECT,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-reject.list
+ruleset=💬 Ai平台,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-ai.list
+ruleset=💬 Ai平台,surge:https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt
+ruleset=🚀 节点选择,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-node.list
+ruleset=🎯 全球直连,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-direct.list
+ruleset=🌍 国外媒体,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-global.list
+ruleset=🛑 广告拦截,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-ads.list
+ruleset=🐟 漏网之鱼,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-final.list
