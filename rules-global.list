@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,t.co
 # 4. 开发、工具与 Apple 生态
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,ghcr.io
