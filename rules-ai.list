@@ -30,7 +30,7 @@ DOMAIN-SUFFIX,gs-loc-cn.apple.com
 DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-KEYWORD,gs-loc
 DOMAIN-KEYWORD,siri
-IP-CIDR,17.248.0.0/13,no-resolve
+# IP-CIDR,17.248.0.0/13,no-resolve
 # OpenAI
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,openai.com
