@@ -1,4 +1,3 @@
-# 1. 核心通讯与跨国网络 (IP 匹配与直连修复)
 IP-CIDR,194.221.250.50/32,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
@@ -8,7 +7,6 @@ DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,line.me
 DOMAIN-SUFFIX,ipapi.is
 DOMAIN-SUFFIX,tailscale.com
-# 2. Google 生态系统
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
@@ -17,7 +15,6 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN,mtalk.google.com
 DOMAIN,alt1-mtalk.google.com
@@ -29,7 +26,6 @@ DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
 IP-CIDR,74.125.200.0/22,no-resolve
-# 3. 跨界电商与海外社交
 DOMAIN-KEYWORD,tiktok
 GEOSITE,tiktok
 DOMAIN-SUFFIX,tiktok.com
@@ -44,22 +40,18 @@ DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,pages.dev
 DOMAIN-SUFFIX,t.co
-# 4. 开发、工具与 Apple 生态
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,chwm123.com
 DOMAIN-SUFFIX,hostkvm.com
 DOMAIN-SUFFIX,lingxiangtools.top
-# 5. 海外流媒体影视库
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,fast.com
-DOMAIN-SUFFIX,steamsteampowered.com
+DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-SUFFIX,tmdb.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,trakt.tv
 DOMAIN-SUFFIX,plexapp.com
-# 6. 美国地域兜底
-GEOIP,US,no-resolve
