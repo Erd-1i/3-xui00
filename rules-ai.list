@@ -67,7 +67,6 @@ DOMAIN,cp4.cloudflare.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
-DOMAIN,www.bing.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,makersuite.google.com
