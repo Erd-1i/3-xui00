@@ -1,11 +1,3 @@
-# 1. 局域网与私有网络 (最高优先级)
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,ts.net
-DOMAIN-SUFFIX,router.asus.com
-IP-CIDR,192.168.0.0/16,no-resolve
-IP-CIDR,10.0.0.0/8,no-resolve
-IP-CIDR,172.16.0.0/12,no-resolve
-# 2. 核心电商与支付业务 (防 Geosite 滞后，硬编码直连)
 DOMAIN-KEYWORD,taobao
 DOMAIN-KEYWORD,alipay
 DOMAIN-KEYWORD,alibaba
@@ -32,7 +24,6 @@ DOMAIN-SUFFIX,fastmoss.com
 DOMAIN-SUFFIX,91miaoshou.com
 DOMAIN-SUFFIX,lianlianpay.com
 DOMAIN-SUFFIX,fjhxbank.com
-# 3. 政务、常规媒体、基础工具与设备服务
 DOMAIN-SUFFIX,gsxt.gov.cn
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,chinatax.gov.cn
@@ -52,8 +43,4 @@ DOMAIN-SUFFIX,todesk.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,test-ipv6.com
-# 4. 特定节点 IP 直连兜底
 IP-CIDR,120.40.72.181/32,no-resolve
-# 5. 中国大陆规则库兜底 (必须放在最后)
-GEOSITE,CN
-GEOIP,CN,no-resolve
