@@ -24,6 +24,12 @@ custom_proxy_group=🇺🇲 美国节点`url-test`美|US|USA|America`http://www.
 custom_proxy_group=🇰🇷 韩国节点`url-test`韩|KR|Korea`http://www.gstatic.com/generate_204`300
 
 ; ==================== 分流规则 ====================
+ruleset=DIRECT,[]AND,((SRC-IP-CIDR,192.168.0.15/32),(IP-CIDR,10.0.0.0/8,no-resolve))
+ruleset=DIRECT,[]AND,((SRC-IP-CIDR,192.168.0.15/32),(IP-CIDR,172.16.0.0/12,no-resolve))
+ruleset=DIRECT,[]AND,((SRC-IP-CIDR,192.168.0.15/32),(IP-CIDR,192.168.0.0/16,no-resolve))
+ruleset=REJECT,[]AND,((SRC-IP-CIDR,192.168.0.15/32),(NETWORK,UDP),(DST-PORT,443))
+ruleset=💬 Ai平台,[]AND,((SRC-IP-CIDR,192.168.0.15/32),(NETWORK,TCP))
+ruleset=💬 Ai平台,[]AND,((SRC-IP-CIDR,192.168.0.15/32),(NETWORK,UDP))
 ruleset=REJECT,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-reject.list
 ruleset=REJECT,[]AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,youtube))
 ruleset=REJECT,[]AND,((NETWORK,UDP),(DST-PORT,443),(GEOSITE,google))
