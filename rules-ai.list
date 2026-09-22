@@ -1,5 +1,3 @@
-DOMAIN-WILDCARD,*mask*.apple-dns.net
-DOMAIN-WILDCARD,*mask*.icloud.com
 DOMAIN,apple-relay.apple.com
 DOMAIN,math.apple.com
 DOMAIN,modelcompute.apple.com
@@ -25,7 +23,6 @@ DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,mask.apple-dns.net
 DOMAIN-SUFFIX,mask-h2.apple-dns.net
-DOMAIN-SUFFIX,mask-api.icloud.com
 DOMAIN-SUFFIX,gateway.icloud.com.cn
 DOMAIN-SUFFIX,gs-loc-cn.apple.com
 DOMAIN-SUFFIX,mesu.apple.com
@@ -63,10 +60,6 @@ DOMAIN,o33249.ingest.sentry.io
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,cp4.cloudflare.com
-DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
 DOMAIN-SUFFIX,githubcopilot.com
@@ -82,9 +75,6 @@ DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN,ai.google.dev
-DOMAIN,bard.google.com
-DOMAIN,gemini.google.com
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,labs.google
 DOMAIN-SUFFIX,openrouter.ai
