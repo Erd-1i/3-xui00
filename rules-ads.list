@@ -1,2 +1,6 @@
+  - 'AND,((NETWORK,UDP),(DST-PORT,443),(DOMAIN-SUFFIX,openai.com))'
+  - 'AND,((NETWORK,UDP),(DST-PORT,443),(DOMAIN-SUFFIX,chatgpt.com))'
+  - 'AND,((NETWORK,UDP),(DST-PORT,443),(DOMAIN-SUFFIX,oaistatic.com))'
+  - 'AND,((NETWORK,UDP),(DST-PORT,443),(DOMAIN-SUFFIX,oaiusercontent.com))'
 GEOSITE,category-ads-all
 DOMAIN-SUFFIX,stun.services.mozilla.com
