@@ -1,6 +1,5 @@
 [custom]
 
-; 香港服务器版：使用本地 SubConverter 和自建规则 API
 enable_rule_generator=true
 overwrite_original_rules=true
 
@@ -42,5 +41,4 @@ ruleset=🛑 广告拦截,clash-classic:https://raw.githubusercontent.com/Erd-1i
 ruleset=DIRECT,[]GEOSITE,CN
 ruleset=DIRECT,[]GEOIP,CN,no-resolve
 ruleset=🌍 国外媒体,[]GEOIP,US,no-resolve
-ruleset=REJECT,[]IP-CIDR6,::/0,no-resolve
 ruleset=🐟 漏网之鱼,clash-classic:https://raw.githubusercontent.com/Erd-1i/3-xui00/refs/heads/main/rules-final.list
