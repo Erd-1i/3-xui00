@@ -42,4 +42,5 @@ DOMAIN-SUFFIX,oray.com
 DOMAIN-SUFFIX,todesk.com
 DOMAIN-SUFFIX,aliapp.org
 DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,cn.bing.com
 IP-CIDR,120.40.72.181/32,no-resolve
